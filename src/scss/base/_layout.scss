@@ -1,5 +1,9 @@
 @use '../abstracts/index' as *;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   background-color: $background;
