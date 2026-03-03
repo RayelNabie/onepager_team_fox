@@ -33,6 +33,10 @@
       padding: 0 40px;
       border-bottom-right-radius: 20px;
     }
+    a {
+      display: block;
+      transition: opacity 0.3s ease;
+    }
 
     img {
       height: 25px;
