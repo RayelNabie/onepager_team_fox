@@ -3,8 +3,11 @@
 .navbar {
   display: flex;
   position: sticky;
+  top: 0;
+  left: 0;
   background-color: $background;
   height: 40px;
+  z-index: map-get($z-index, header);
 
   @include respond-min($tablet) {
     height: 60px;
