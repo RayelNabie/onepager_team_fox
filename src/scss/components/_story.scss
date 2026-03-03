@@ -1,0 +1,36 @@
+@use '../abstracts/index' as *;
+
+.goals {
+  &__story {
+    margin: 60px 100px;
+    &__container {
+      background: linear-gradient(180deg, #f88544 0%, #ffad7f 100%);
+      padding: 100px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__title {
+      font-size: 40px;
+      letter-spacing: 4%;
+      margin: 0;
+    }
+
+    &__text {
+      letter-spacing: 4%;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: $content-width;
+    margin: 0 auto;
+
+    &__card {
+    }
+  }
+}
