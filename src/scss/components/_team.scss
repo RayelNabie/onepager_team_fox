@@ -13,11 +13,12 @@
 
     @include respond-min($tablet) {
       grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
     }
 
     @include respond-min($desktop) {
       grid-template-columns: repeat(3, 1fr);
-      gap: 30px 100px;
+      gap: 60px 40px;
     }
   }
 
